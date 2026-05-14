@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Hide native date picker indicator so custom Calendar icon is used */
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="month"]::-webkit-calendar-picker-indicator {
+	opacity: 0;
+	position: absolute;
+	right: 0;
+}
